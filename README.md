@@ -46,7 +46,7 @@ like Russian dolls, which is the case here:
 - The fourth scope is also inside the second scope, which means the fourth scope
   has access to all the variables defined in the second scope, including the
   ones defined in the first scope
-- The fourth scope is a peer of the second scope, which means they cannot see
+- The fourth scope is a peer of the third scope, which means they cannot see
   each other's variables. A scope can only see its variables and the variables
   of all the scopes inside it.
 
